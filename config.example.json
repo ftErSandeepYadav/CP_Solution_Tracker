@@ -1,0 +1,23 @@
+{
+  "platforms": {
+    "codeforces": {
+      "enabled": true,
+      "handle": "your_cf_handle",
+      "cookies": ""
+    }
+  },
+  "repository": {
+    "owner": "your_github_username",
+    "name": "competitive-programming",
+    "branch": "main",
+    "token": "ghp_your_personal_access_token_here",
+    "use_github": true
+  },
+  "sync": {
+    "auto_sync": false,
+    "conflict_strategy": "keep_latest",
+    "state_file": ".sync-state.json",
+    "max_concurrency": 5,
+    "organize_by_contest": true
+  }
+}
